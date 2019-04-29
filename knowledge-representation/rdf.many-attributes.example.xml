@@ -1,0 +1,28 @@
+<?xml version="1.0"?> <!-- For example with more fun , NO hostility. -->
+
+<!-- 
+蔡徐坤 ：
+种类 ： 人
+性别 ： 男
+职业 ： 篮球运动员
+练习时长 ： 2.5年
+生日 ： 1998年8月2日
+身高 ： 183cm
+体重 ： 55kg
+-->
+
+<rdf:RDF 
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+	xmlns:subject="http://ikun.info/">
+
+	<rdf:Description rdf:about="http://ikun.info/about-her/"
+		subject:种类="人"
+		subject:练习时长="2.5年"
+		subject:性别="男"
+		subject:职业="篮球运动员"
+		subject:生日="1998年8月2日"
+		subject:身高="183cm"
+		subject:体重="55kg"
+		>
+	</rdf:Description>
+</rdf:RDF>

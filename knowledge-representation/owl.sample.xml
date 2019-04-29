@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:base="http://ikun.info/">
+
+	<owl:ObjectProperty rdf:ID="蔡徐坤">
+		<rdfs:label>蔡徐坤</rdfs:label>
+		<rdf:type rdf:resource="http://ikun.info"/>  <!-- Define Subject here. -->
+	</owl:ObjectProperty>
+
+  	<rdf:Description rdf:ID="练习时长">
+  			<rdf:type rdf:Property="2.5年"/>
+	</rdf:Description>
+
+	<owl:Class rdf:ID="蔡徐坤一类的明星">
+		<rdfs:subClassOf rdf:resource="流量明星"/>
+		<rdfs:label>蔡徐坤一类的明星</rdfs:label>
+		<rdfs:domain rdf:resource="蔡徐坤"/>
+		<rdfs:domain rdf:resource="吴亦凡"/>
+		<rdfs:domain rdf:resource="Angelababy"/>
+	</owl:Class>
+</rdf:RDF>

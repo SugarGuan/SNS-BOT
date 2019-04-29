@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+
+<!-- 
+蔡徐坤 
+种类 ： 人
+性别 ： 男
+职业 ： 篮球运动员
+练习时长 ： 2.5年
+生日 ： 1998年8月2日
+身高 ： 183cm
+体重 ： 55kg
+
+是一种 - 流量明星
+-->
+
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:base="http://ikun.info/">
+
+		<rdf:Description rdf:ID="种类">
+  			<rdf:type rdf:Property="人"/>
+		</rdf:Description>
+		<rdf:Description rdf:ID="性别">
+  			<rdf:type rdf:Property="男"/>
+		</rdf:Description>
+		<rdf:Description rdf:ID="职业">
+  			<rdf:type rdf:Property="篮球运动员"/>
+		</rdf:Description>
+		<rdf:Description rdf:ID="练习时长">
+  			<rdf:type rdf:Property="2.5年"/>
+		</rdf:Description>
+		<rdf:Description rdf:ID="生日">
+  			<rdf:type rdf:Property="1998年8月2日"/>
+		</rdf:Description>
+		<rdf:Description rdf:ID="身高">
+  			<rdf:type rdf:Property="183cm"/>
+		</rdf:Description>
+		<rdf:Description rdf:ID="体重">
+  			<rdf:type rdf:Property="55kg"/>
+		</rdf:Description>
+
+		<rdfs:Class rdf:ID="流量明星">
+  			<rdf:type rdf:resource="http://topic-star.info"/>
+		</rdfs:Class>
+
+		<rdfs:Class rdf:ID="蔡徐坤">
+  			<rdf:type rdf:resource="http://ikun.info"/>
+  		<rdfs:subClassOf rdf:resource="#流量明星"/>
+		</rdfs:Class>
+
+</rdf:RDF>
